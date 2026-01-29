@@ -515,7 +515,7 @@
             <section id="interactive-prompting" class="section">
                 <h2>Interactive Prompting</h2>
                 <p class="paragraph">
-                    Deep Forcing enables users to modify prompts during streaming to interactively generate video in real-time.
+                    Deep Forcing enables users to modify prompts during streaming to interactively generate video in real time. Input prompts can be viewed via the "Prompt" button in the video.
                 </p>
                 <div class="video-grid">
                     <div class="video-item">
@@ -547,6 +547,9 @@
                     Our methods can be applied to world models such as Matrix-Game 2.0, mitigating error accumulation and color drift.
                 </p>
                 <h3>Dynamic Scene</h3>
+                <p>
+                    When action inputs (e.g., mouse or keyboard controls) are provided in real time, Deep Forcing substantially reduces visual fidelity degradation (e.g., color shifts and vehicle distortion).
+                </p>
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-label">Matrix-Game 2.0</div>
@@ -560,6 +563,9 @@
                     </div>
                 </div>
                 <h3 class="subsection-spacer">Static Scene</h3>
+                <p>
+                    When no action input (e.g., mouse or keyboard controls) is provided, Matrix-Game-2.0 degrades rapidly starting at around <b>10s</b>. In contrast, Deep Forcing can maintain a stable world even without action inputs, preventing such degradation.
+                </p>
                 <div class="video-grid">
                     <div class="video-item">
                         <div class="video-label">Matrix-Game 2.0</div>
